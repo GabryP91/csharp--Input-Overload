@@ -148,21 +148,21 @@ namespace csharp__Input_Overload
 
         public double Somma() {
 
-            double num1, num2;
+            double val1, val2;
 
             Console.WriteLine("\nInserire primo numero:\n");
-            while (!double.TryParse(Console.ReadLine(), out num1))
+            while (!double.TryParse(Console.ReadLine(), out val1))
             {
                 Console.WriteLine("Sintassi errata. Inserisci un numero");
             }
 
             Console.WriteLine("\nInserire secondo numero:\n");
-            while (!double.TryParse(Console.ReadLine(), out num2))
+            while (!double.TryParse(Console.ReadLine(), out val2))
             {
                 Console.WriteLine("Sintassi errata. Inserisci un numero");
             }
 
-            return num1 + num2;
+            return val1 + val2;
 
         }
 
