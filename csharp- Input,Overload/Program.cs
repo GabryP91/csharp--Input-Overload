@@ -63,9 +63,9 @@ namespace csharp__Input_Overload
             CalcolatriceAvanzata prova = new CalcolatriceAvanzata();
 
 
-            Console.WriteLine("il risultato del primo overraide del metodo Somma sarà {0}\n", prova.Somma(12.6, 5.8, 23.8));
+            Console.WriteLine("il risultato del primo overload del metodo Somma sarà {0}\n", prova.Somma(12.6, 5.8, 23.8));
 
-            Console.WriteLine("il risultato del secondo overraide del metodo Somma sarà {0}\n", prova.Somma(12.6, 5.8, ""));
+            Console.WriteLine("il risultato del secondo overload del metodo Somma sarà {0}\n", prova.Somma(12.6, 5.8, ""));
 
             Console.WriteLine("Parte bonus:\n");
 
